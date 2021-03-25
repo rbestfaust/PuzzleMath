@@ -19,8 +19,10 @@ namespace QuestMath
         public static int count = 0;
         public int commonCount;
         public string countText = $"Сегодня ты решил : {count.ToString()}";
-        string path = @"C:\Users\Roman\Desktop\QuestMath\commonCount.txt";
-        string path2 = @"C:\Users\Roman\Desktop\QuestMath\";
+        //string path = @"C:\Users\Roman\Desktop\QuestMath\commonCount.txt";
+        //string path2 = @"C:\Users\Roman\Desktop\QuestMath\";
+        string path = @"C:\Program Files\QuestMath\commonCount.txt";
+        string path2 = @"C:\Program Files\QuestMath\";
 
         string Print (int a , int b, bool multiplication)
         {
@@ -82,7 +84,7 @@ namespace QuestMath
 
                 case 4:
 
-                    value = (random.Next(75, 195), random.Next(200, 500));
+                    value = (random.Next(175, 300), random.Next(350, 900));
                     min = value.Item1;
                     max = value.Item2;
                     valueMax = value.Item2;
